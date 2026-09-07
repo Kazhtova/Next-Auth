@@ -26,9 +26,7 @@ body {
     min-height: 100vh;
     padding: 40px 20px;
 }
-/* lala*/
 .form-container { width: 100%; max-width: 480px; }
-/* asas */
 .back-link {
     display: inline-flex;
     align-items: center;
