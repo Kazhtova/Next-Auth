@@ -74,7 +74,9 @@ body {
 }
 /*  */
 .input-group { margin-bottom: 25px; }
+/*  */
 .input-group.muted { opacity: 0.6; }
+/*  */
 label {
     display: block;
     font-size: 0.rem;
