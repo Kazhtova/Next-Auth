@@ -9,7 +9,7 @@
 }
 /*  */
 * { margin: 0; padding: 0; box-sizing: border-box; }
-
+/*  */
 body {
     background-color: var(--bg-main);
     background-image: 
@@ -19,7 +19,6 @@ body {
     font-family: 'Inter', sans-serif;
     min-height: 100vh;
 }
-/*  */
 .edit-layout {
     display: flex;
     justify-content: center;
