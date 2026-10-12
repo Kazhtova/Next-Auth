@@ -166,7 +166,8 @@
             color: var(--text-muted);
             font-size: 0.9rem;
         }
-
+        /*  */
+        /*  */
         @media (max-width: 768px) {
             body { flex-direction: column; height: auto; overflow: auto; }
             .sidebar { width: 100%; flex-direction: row; padding: 1rem; align-items: center; overflow-x: auto; }
