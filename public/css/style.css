@@ -29,12 +29,13 @@ body {
     color: var(--text-main);
 }
 /*  */
+/*  */
 .container {
     width: 100%;
     max-width: 420px;
 }
 /*  */
-
+/*  */
 .card {
     background-color: var(--bg-card);
     padding: 3rem 2.5rem;
