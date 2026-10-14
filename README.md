@@ -3,7 +3,7 @@
 ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-
+---
 
 This project was developed as a final capstone assignment by a sophomore vocational high school student majoring in Software Engineering (RPL). It serves as a practical application of core software development principles and backend architecture learned throughout the vocational curriculum.
 
