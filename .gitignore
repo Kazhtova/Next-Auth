@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -39,3 +40,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+=======
+# app/views/kategori/index.php
+# app/views/kategori/edit.php
+# app/views/kategori/tambah.php
+# public/css/
+# public/js/
+>>>>>>> 861f57f12019551b22f332700403c34abc2362a4

@@ -1,0 +1,161 @@
+:root {
+    --primary-color: #10b981; 
+    --primary-hover: #34d399; 
+    --primary-glow: rgba(16, 185, 129, 0.5); 
+    
+    --bg-dark: #0f172a;
+    --bg-card: rgba(30, 41, 59, 0.7);
+    --bg-input: #1e293b; 
+    --text-main: #f1f5f9; 
+    --text-muted: #94a3b8; 
+    
+    --border-glass: rgba(255, 255, 255, 0.1);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #020617;
+    background-image: radial-gradient(circle at 50% 0%, #1e293b 0%, #020617 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: var(--text-main);
+}
+.container {
+    width: 100%;
+    max-width: 420px;
+}
+.card {
+    background-color: var(--bg-card);
+    padding: 3rem 2.5rem;
+    border-radius: 16px;
+
+    border: 1px solid var(--border-glass); 
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/*  */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 30px 60px -12px rgba(16, 185, 129, 0.15); 
+    border-color: rgba(16, 185, 129, 0.3);
+}
+/*  */
+.card-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    letter-spacing: 0.5px;
+    
+    /* GANTI BAGIAN INI */
+    color: var(--primary-color); /* Menggunakan warna hijau #10b981 */
+    text-shadow: 0 0 10px rgba(16, 185, 129, 0.4); /* Efek cahaya neon */
+    
+    /* Hapus baris background-clip dan text-fill-color yang lama */
+}
+
+/* Wrapper Form */
+form div {
+    margin-bottom: 1.5rem;
+}
+
+/* Label */
+label {
+    display: block;
+    margin-bottom: 0.6rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+/* Input Field Dark Mode */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 14px 16px;
+    background-color: var(--bg-input);
+    border: 1px solid var(--border-glass);
+    border-radius: 10px;
+    font-size: 0.95rem;
+    color: var(--text-main);
+    transition: all 0.3s ease;
+}
+
+/* Efek Focus Neon */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #0f172a;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.2);
+    outline: none;
+}
+
+input::placeholder {
+    color: #475569;
+}
+
+/* Tombol Submit "Glowing" */
+.btn {
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(135deg, var(--primary-color), #059669);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* Glow effect di bawah tombol */
+    box-shadow: 0 4px 15px var(--primary-glow);
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    filter: brightness(1.1);
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.6);
+    transform: translateY(-2px);
+}
+
+/* Link Login */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--primary-color);
+    text-shadow: 0 0 8px var(--primary-glow);
+}
+
+/* Alert Error Dark Mode */
+.alert {
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.alert-danger {
+    background-color: rgba(220, 38, 38, 0.1); /* Merah transparan */
+    color: #f87171; /* Merah terang pastel */
+    border: 1px solid rgba(220, 38, 38, 0.2);
+}
