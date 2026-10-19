@@ -16,8 +16,8 @@ export default async function PostsPage() {
   const posts = await db.post.findMany();
 
   return (
-    <div className="space-y-8 text-center pt-8">
-      <h1 className="text-4xl font-bold md:text-5xl">All Posts</h1>
+    <div className="space-y-12 text-center pt-16">
+      <h1 className="text-4xl font-bold md:text-5xl text-gray-800">All Posts</h1>
 
       <form
         action={createPost}
