@@ -47,3 +47,8 @@ next-env.d.ts
 # public/css/
 # public/js/
 >>>>>>> 861f57f12019551b22f332700403c34abc2362a4
+
+# Prisma local SQLite database
+/prisma/*.db
+/prisma/*.db-journal
+.aider*
